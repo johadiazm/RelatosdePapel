@@ -1,0 +1,53 @@
+/* filepath: /c:/Users/JOHANA/Desktop/relatospapel/src/components/LandingPage.scss */
+.landing-page {
+  text-align: center;
+  padding: 50px 20px;
+
+  &__header {
+    margin-bottom: 40px;
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+
+  &__features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .feature {
+      flex: 1;
+      margin: 20px;
+      max-width: 300px;
+
+      h2 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
+  }
+}

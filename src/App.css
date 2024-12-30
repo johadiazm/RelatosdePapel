@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+}
+
+.App_logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App_header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App_link {
+  color: #61dafb;
+}
+img{
+  width: 45%;
+  height: 40%;
+}
+.App_container{
+  display: flex;
+  }
+.App_sidebar{
+  display: flex;
+  flex:1;
+  width:20%;
+  height: auto;
+  background-color:whitesmoke;
+  color: black;
+  align-items: left;
+  justify-content: left;
+  margin-left: 5px;
+}
+.App_main{
+  display: flex;
+  align-content: center;
+  flex: 3;
+  margin-left: 30px;}
+
+  .App_gallery-books{
+    display: flex;
+    flex-wrap: wrap; 
+  }
+  .App_book-container {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 180px;
+    height: 550px;
+    text-align: center;
+  }
+  .App__img-car{
+    width:10%;
+    height:10%;
+  }
+ li{
+  list-style: none;
+  text-align: left;
+ }
+.App_cart-items{ 
+  width: 500px;
+  display:flex;
+  justify-content:space-between; 
+  margin-bottom:5px; 
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 6px;}
+  
+  .App_cart h3{
+    text-align: left;
+  } 
+  .App_cart h4{
+    text-align: right;
+  }
+  .button_cart{
+
+    size: 200px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .button_cart:hover{
+    background-color:red;
+  }
+  .App_book-container:hover{
+    background-color: #f1f1f1;
+  }
+  .App_book-detail{
+    border-style: groove;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 8px;
+  }
+  .button_delete{
+    size: 200px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
